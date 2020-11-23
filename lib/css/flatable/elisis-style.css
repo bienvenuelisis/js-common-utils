@@ -1,0 +1,100 @@
+img.lazy {
+    display: block;
+}
+
+.crop {
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.crop img {
+    width: 400px;
+    height: 300px;
+    margin: -75px 0 0 -100px;
+}
+
+.card-black-double {
+    border: #000000;
+    border-style: double;
+    margin-left: 1em;
+    padding: 2em;
+    border-radius: 1px;
+    margin-right: 1em;
+    border-width: 1px;
+}
+
+.span-line-purchase {
+    border-bottom: #000000;
+    border-bottom-style: double;
+    margin-left: -3em;
+    margin-right: -3em;
+    border-radius: 1px;
+    border-bottom-width: 1px;
+}
+
+.card-block-border {
+    border: #000000;
+    border-style: double;
+    border-radius: 1px;
+    border-width: 1px;
+}
+
+.card-border-top {
+    border-top: #000000;
+    border-top-style: double;
+    border-radius: 1px;
+    border-top-width: 1px;
+}
+
+.card-border-right {
+    border-right: #000000;
+    border-right-style: double;
+    border-radius: 1px;
+    border-right-width: 1px;
+}
+
+.card-border-left {
+    border-left: #000000;
+    border-left-style: double;
+    border-radius: 1px;
+    border-left-width: 1px;
+}
+
+.card-border-bottom {
+    border-bottom: #000000;
+    border-bottom-style: groove;
+    border-radius: 1px;
+    border-bottom-width: medium;
+}
+
+.span-line-purchase-right {
+    border-bottom: #000000;
+    border-right: #000000;
+    border-bottom-style: double;
+    border-right-style: double;
+    margin-left: -3em;
+    margin-right: -3em;
+    border-radius: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+}
+
+.title-purchase-border-right {
+    border-right: #000000;
+    border-right-style: double;
+    border-right-width: 1px;
+    margin-top: -2em;
+}
+
+.input-comment, .input-text {
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.border-green {
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1px;
+    border: 2px solid #00cc66;
+}

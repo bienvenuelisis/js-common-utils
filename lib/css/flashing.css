@@ -1,0 +1,31 @@
+*,*:before,*:after{box-sizing: border-box;}
+.flashing{
+    width: 30px;
+    height: 30px;
+    border-radius: 12px;
+    background: #FFF;
+    cursor: default;
+    margin: auto;
+}
+
+.flashing:after{
+    animation: flashing 1s .5s ease-in;
+    border: 3px solid #fff99e;
+}
+.flashing:after{
+    content: "";
+    width: 100%;
+    height:100%;
+    display: block;
+    border-radius: 50%;
+    background: lightseagreen;
+    opacity: 0;
+    animation-iteration-count: infinite;
+    margin: auto;
+}
+
+@keyframes flashing{
+    0%{-webkit-transform:scale(.1,.1);opacity:0}
+    50%{opacity:1}
+    100%{-webkit-transform:scale(1.2,1.2);opacity:0}
+}

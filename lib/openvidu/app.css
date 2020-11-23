@@ -1,0 +1,17 @@
+#publisher-vidu {
+	float: left;
+	margin: 10px;
+    width: 40%;
+}
+
+#subscriber-vidu {
+	float: right;
+    margin: 10px;
+    width: 40%;
+}
+
+video {
+    width: 70%;
+    margin: 10px auto 0 auto;
+    display: block;
+}
